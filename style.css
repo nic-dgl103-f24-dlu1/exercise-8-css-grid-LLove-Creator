@@ -30,10 +30,14 @@ header {
     grid-column: 1 / -1;
 }
 
+.logo {
+    display:flex;
+    align-items: center;
+}
+
 .logo-name {
     font-size: 3.2rem;
 }
-
 
 .header-wrap {
     display: grid;
