@@ -15,3 +15,10 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+h1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F2F0D5;
+}
