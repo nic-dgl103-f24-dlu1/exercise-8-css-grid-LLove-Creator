@@ -22,3 +22,8 @@ h1 {
     font-style: normal;
     color: #F2F0D5;
 }
+
+header {
+    background-color: #0D0D0D;
+    grid-column: 1 / -1;
+}
