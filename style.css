@@ -10,7 +10,7 @@ body {
     grid-template-rows: 1fr  2fr 2fr 2fr 1fr;
     grid-area: 
     'aside-main';
-    background-color: #F2F0D5;
+    background-color: #ECDFF2;
     font-family: "Ubuntu", serif;
     font-weight: 400;
     font-style: normal;
