@@ -1,0 +1,9 @@
+/*-------- GLOBAL STYLES ---------*/
+
+html {
+    font-size: 62.5%;
+  }
+  
+body {
+    display: grid;
+}
