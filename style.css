@@ -6,4 +6,6 @@ html {
   
 body {
     display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 5;
 }
