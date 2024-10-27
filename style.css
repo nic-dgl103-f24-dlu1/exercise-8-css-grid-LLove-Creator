@@ -34,6 +34,12 @@ header {
     grid-column: 1 / -1;
 }
 
+.header-wrap {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
 .header-nav a {
     color: #ECDFF2;
     font-size: 2.4rem;
