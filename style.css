@@ -16,11 +16,15 @@ body {
     font-style: normal;
 }
 
-h1 {
+h1, .logo-name {
     font-family: "Ubuntu", serif;
     font-weight: 700;
     font-style: normal;
-    color: #F2F0D5;
+    color: #ECDFF2;
+}
+
+.logo-name {
+    font-size: 3.2rem;
 }
 
 /*Header Styles*/
@@ -33,5 +37,4 @@ header {
 .header-nav a {
     color: #ECDFF2;
     font-size: 2.4rem;
-    justify-self: end;
 }
