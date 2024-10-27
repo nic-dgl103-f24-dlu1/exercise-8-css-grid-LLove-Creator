@@ -37,6 +37,7 @@ header {
 
 .logo-name {
     font-size: 3.2rem;
+    margin-right: 50px;
 }
 
 .header-wrap {
@@ -48,6 +49,7 @@ header {
 .header-nav {
     display: flex;
     justify-content: flex-end;
+    gap: 20px;
 }
 
 .header-nav a {
