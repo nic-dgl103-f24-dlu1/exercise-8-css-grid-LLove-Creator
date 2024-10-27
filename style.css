@@ -50,6 +50,8 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    flex-wrap: wrap;
+    margin-right: 50px;
 }
 
 .header-nav a {
