@@ -16,8 +16,8 @@ body { /*Understanding my grid areas https://www.w3schools.com/cssref/pr_grid-te
     grid-area: /*the . signifies empty space in the column. Not sure how or if this will work for the aside*/
     'header header header'
     '. hero .'
-    '. about aside .'
-    '. featured aside .'
+    'about aside'
+    'featured aside'
     'footer footer footer'
     ;
 }
