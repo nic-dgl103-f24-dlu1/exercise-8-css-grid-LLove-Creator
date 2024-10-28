@@ -63,8 +63,12 @@ header {
     font-size: 2.4rem;
 }
 
-.hero {
-    background-color: #0D0D0D;
+/*Header Styles*/
+
+.hero { /*Learned this from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+    position: relative;
+    text-align: center;
+    color: #0D0D0D;
 }
 
 .about, .featured {
