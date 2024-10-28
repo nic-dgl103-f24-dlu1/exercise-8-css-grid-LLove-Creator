@@ -65,10 +65,19 @@ header {
 
 /*Header Styles*/
 
-.hero { /*Learned this from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.hero { /*Learned position from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+    grid-column: 2 / -2;
     position: relative;
+    display: flex;
     text-align: center;
+    align-items: flex-end;
     color: #0D0D0D;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
 }
 
 .about, .featured {
