@@ -4,17 +4,22 @@ html {
     font-size: 62.5%;
   }
   
-body {
+body { /*Understanding my grid areas https://www.w3schools.com/cssref/pr_grid-template-areas.php*/
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 1fr 2fr 1fr;
-    grid-area: 
-    'aside-main';
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
     background-color: #ECDFF2;
     font-family: "Ubuntu", serif;
     font-weight: 400;
     font-style: normal;
     gap: 2em;
+    grid-area: /*the . signifies empty space in the column. Not sure how or if this will work for the aside*/
+    'header header header'
+    '. hero .'
+    '. about aside .'
+    '. featured aside .'
+    'footer footer footer'
+    ;
 }
 
 h1, .logo-name {
