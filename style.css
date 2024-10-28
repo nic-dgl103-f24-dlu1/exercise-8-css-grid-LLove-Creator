@@ -7,7 +7,7 @@ html {
 body { /*Understanding my grid areas https://www.w3schools.com/cssref/pr_grid-template-areas.php*/
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+    grid-template-rows: auto auto 1fr auto; /*auto will make it responsive and hopefully make my hero fill the space (nope not yet)*/
     background-color: #ECDFF2;
     font-family: "Ubuntu", serif;
     font-weight: 400;
@@ -75,6 +75,7 @@ header {
 }
 
 .hero img {
+    grid-area: ;
     width: 100%;
     height: auto;
     object-fit: cover;
