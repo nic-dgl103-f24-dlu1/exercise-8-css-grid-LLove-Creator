@@ -7,7 +7,7 @@ html {
 body {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr  2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
     grid-area: 
     'aside-main';
     background-color: #ECDFF2;
@@ -65,15 +65,14 @@ header {
 .hero { /*Learned position from https://www.w3schools.com/howto/howto_css_image_text.asp*/
     grid-column: 2;
     position: relative;
-    text-align: center;
-    align-items: flex-end;
-    color: #0D0D0D;
     width: 100%;
+    min-height: 300px;
 }
 
 .hero img {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 h1 {
