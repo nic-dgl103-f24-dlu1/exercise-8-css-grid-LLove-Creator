@@ -9,18 +9,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: auto auto 1fr auto; 
-    background-color: #ECDFF2;
-    font-family: "Ubuntu", serif;
-    font-weight: 400;
-    font-style: normal;
-    gap: 2em;
     grid-template-areas:
     'header header header header'
     '. hero hero .'
     '. about aside .'
     '. featured aside .'
     'footer footer footer footer';
-
+    background-color: #ECDFF2;
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 2em;
 }
 
 h1, .logo-name {
@@ -73,14 +72,13 @@ header {
     grid-area: hero;
     position: relative;
     width: 100%;
+    min-height: 300px;
 }
 
 .hero img {
     width: 100%;
     object-fit: cover;
     min-width: 100%;
-    min-height: 300px;
-    max-width: 1170px;
 }
 
 h1 {
@@ -96,12 +94,16 @@ h1 {
 
 .featured {
     grid-area: featured;
+    background-color: #F2F0D5;
 }
 
 aside {
     grid-area: aside;
+    background-color: #F2F0D5;
 }
 
 footer {
     grid-area: footer;
+    background-color: #0D0D0D;
+    color: #ECDFF2;
 }
