@@ -80,6 +80,10 @@ header {
 .hero img {
     max-height: 500px;
     object-fit: cover;
+    max-width: 1170;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 h1 {
