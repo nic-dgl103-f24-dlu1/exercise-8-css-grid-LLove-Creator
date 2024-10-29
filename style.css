@@ -71,10 +71,12 @@ header {
 
  /*Learned position from https://www.w3schools.com/howto/howto_css_image_text.asp*/
 .hero {
+    display:flex;
     grid-area: hero;
     position: relative;
     width: 100%;
     min-height: 300px;
+    justify-content: end;
 }
 
 .hero img {
@@ -85,8 +87,10 @@ header {
 
 h1 {
     position: absolute;
-    top: 50px;
-    bottom: 50px;
+    right: 20px;
+    font-size: 3.2rem;
+    max-width: 250px;
+    text-align: right;
 }
 
 .about {
