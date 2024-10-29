@@ -37,7 +37,7 @@ header {
 }
 
 .logo {
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -65,7 +65,7 @@ header {
     font-size: 2.4rem;
 }
 
-/*Header Styles*/
+/*Hero Styles*/
 
 .hero { /*Learned position from https://www.w3schools.com/howto/howto_css_image_text.asp*/
     grid-area: hero;
