@@ -18,8 +18,7 @@ body { /*Understanding my grid areas https://www.w3schools.com/cssref/pr_grid-te
     '. hero .'
     'about aside'
     'featured aside'
-    'footer footer footer'
-    ;
+    'footer footer footer';
 }
 
 h1, .logo-name {
