@@ -13,7 +13,7 @@ body { /*Understanding my grid areas https://www.w3schools.com/cssref/pr_grid-te
     font-weight: 400;
     font-style: normal;
     gap: 2em;
-    grid-area: /*the . signifies empty space in the column. Not sure how or if this will work for the aside*/
+    grid-area: /*the . signifies empty space in the column. Not sure how or if this will work for the aside (nope, only on hero)*/
     'header header header'
     '. hero .'
     'about aside'
