@@ -88,6 +88,19 @@ h1 {
     bottom: 50px;
 }
 
-.about, .featured {
+.about {
+    grid-area: about;
     background-color: #F2F0D5;
+}
+
+.featured {
+    grid-area: featured;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
 }
