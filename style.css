@@ -68,22 +68,19 @@ header {
 
 /*Hero Styles*/
 
-.hero { /*Learned position from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+ /*Learned position from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.hero {
     grid-area: hero;
     position: relative;
     width: 100%;
-    min-height: 300px;
-    max-width: 1170px;
-    margin: 0 auto;
 }
 
 .hero img {
-    max-height: 500px;
+    width: 100%;
     object-fit: cover;
-    max-width: 1170;
-    margin: 0 auto;
-    text-align: center;
-
+    min-width: 100%;
+    min-height: 300px;
+    max-width: 1170px;
 }
 
 h1 {
