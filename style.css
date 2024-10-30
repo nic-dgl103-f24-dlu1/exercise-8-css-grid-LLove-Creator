@@ -153,6 +153,8 @@ footer {
     align-items: top;
     font-size: 1.2rem;
     flex-direction: row;
+    gap: 20px;
+    margin-left: auto;
 }
 
 .footer-nav a {
