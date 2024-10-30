@@ -173,7 +173,6 @@ footer {
 nav {
   display: flex;
   padding: 50px;
-  align-items: top;
   gap: 20px;
   font-size: 1.6rem;
 }
@@ -182,7 +181,6 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 50px;
-  align-items: top;
   font-size: 2.4rem;
   flex-direction: row;
   gap: 20px;
