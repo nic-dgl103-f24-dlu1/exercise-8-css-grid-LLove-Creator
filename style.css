@@ -146,6 +146,13 @@ footer {
     justify-content: space-between;
 }
 
+nav {
+    display: flex;
+    padding: 50px;
+    align-items: top;
+    gap: 20px;
+}
+
 .footer-nav {
     display: flex;
     flex-direction: row;
@@ -162,4 +169,8 @@ footer {
     color: #ECDFF2;
     justify-content: space-between;
     font-size: 1.6rem;
+}
+
+.socials a {
+    color: #ECDFF2;
 }
