@@ -118,6 +118,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.6rem;
+    margin-top: 20px;
 }
 
 .featured {
@@ -130,6 +131,15 @@ h1 {
     max-height: 250px;
     text-wrap: nowrap;
     padding-right: 10px;
+}
+
+.featured a {
+    background-color: #9D7ABF;
+    color: #ECDFF2;
+    border: 2px solid #ECDFF2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.6rem;
 }
 
 aside {
