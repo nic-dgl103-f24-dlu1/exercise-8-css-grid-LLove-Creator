@@ -142,13 +142,13 @@ footer {
     background-color: #0D0D0D;
     color: #ECDFF2;
     display: flex;
-    align-items: top;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
-footer nav {
+.footer-nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     padding: 50px;
     align-items: top;
     font-size: 1.2rem;
