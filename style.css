@@ -111,6 +111,15 @@ h1 {
     padding: 50px;
 }
 
+.about a {
+    background-color: #9D7ABF;
+    color: #ECDFF2;
+    border: 2px solid #ECDFF2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
 .featured {
     grid-area: featured;
     background-color: #F2F0D5;
@@ -167,6 +176,7 @@ nav {
     flex-direction: row;
     gap: 20px;
     margin-left: auto;
+    flex-wrap: wrap;
 }
 
 .footer-nav a {
