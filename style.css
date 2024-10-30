@@ -149,4 +149,14 @@ footer {
 footer nav {
     display: flex;
     justify-content: space-between;
+    padding: 50px;
+    align-items: top;
+}
+
+.footer-nav a {
+    display: flex;
+    color: #ECDFF2;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    align-items: ;
 }
